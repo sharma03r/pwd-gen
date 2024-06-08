@@ -1,0 +1,32 @@
+.navbar-div {
+  display: flex;
+  background: linear-gradient(-45deg, #4caf50, #8bc34a, #cddc39, #009688);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 80px;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.navbar-h1 {
+  color: white;
+  height: inherit;
+  align-content: center;
+  text-align: center;
+}
+span {
+  color: darkgreen;
+}
