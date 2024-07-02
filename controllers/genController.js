@@ -46,6 +46,7 @@ export const generateQuote = async (req, res, next) => {
         },
       ],
     });
+    console.log("test");
     console.log(response);
     const text = response.content[0].text;
     const lowerCaseSentence = text.toLowerCase();
